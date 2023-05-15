@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>Amazon store</title>
+    <link rel="stylesheet" href="./project1.css"/>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+
+</head>
+<body>
+    <nav>
+    <div class="nav1">
+        <div class="AmazonImage">
+            <a href="#"><img src="./images/amazon.png" alt="logo" class="logo"/><span>.n</span></a>
+        </div>
+
+            <span class="item">
+           <p><i class="fa fa-map-marker me">Hello,</i></p>
+            <h5>enter your <br>adderss</h5></span>
+            <span class="submit" >
+            <button type="submit" class="all">
+            <i class="fa fa-sort-desc" style="padding:10px 17px;margin:1px -2px 1px -2px;"></i>
+            </button>
+            <label for="nn"></label>
+            <input type="text" id="nn" style="height:40px;width:400px;color: black;">
+            <button type="submit" class="search">
+              <i class="fa fa-search"></i>
+            </button>
+             </span>
+         <span class="flag"style="padding: 20px 20px;">
+            <i class="fa fa-flag"></i><i class="fa fa-sort-desc"></i>
+         </span>
+         <span class="desc"style="padding: 1px 10px;">
+                 <center>hello,
+            <p ><a href="form.html">Account&Lists</a></p>
+            <i class="fa fa-sort-desc"></i></a></center>
+            
+         </span>
+         <span class="order"style="padding: 12px 12px;">
+            <p>Returns&</p>
+            <h5>Order</h5>
+         </span>
+         <span class="cart"style="padding: 12px 12px;">
+            <i class="fa fa-shopping-cart fa-2x"> Cart</i>
+         </span>
+         </div>
+        </nav>
+        
+        <div class="subnav">
+            <a href="#"clas="all" >All</a>
+            <a href="#" class="bestselles">Best seller</a>
+            <a href="#" class="Mobiles">Mobiles</a>
+            <a href="#" class="Customer Service">Customer Service</a>
+            <a href="#" class="Today's Deals">Today's Deals</a>
+            <a href="#" class="Fashon">Fashon</a>
+            <a href="#" class="Amazon pay">Amazon pay</a>
+            <a href="./contactus.html" class="Contact us">Contact us</a>
+
+        </div>
+          
+
+          <div style="height:300px; display: flex; ">
+          <button  onclick="plusDivs(-1)" style="width: 20px; border:white; "><p style="color: black;">&#10094;</p></button>
+          <img class="mySlides" src="./images/asas11.jpg" style="width:100%">
+          <img class="mySlides" src="./images/asas22.jpg" style="width:100%">
+          <img class="mySlides" src="./images/asas33.jpg" style="width:100%">
+          <img class="mySlides" src="./images/asas44.jpg" style="width:100%">
+          <button  onclick="plusDivs(1)" style="float: right; width: 20px;border:white;"><p style="color: black;">&#10095;</p></button>
+        </div>
+         
+        <script>
+        var slideIndex = 1;
+        showDivs(slideIndex);
+        
+        function plusDivs(n) {
+          showDivs(slideIndex += n);
+        }
+        
+        function showDivs(n) {
+          var i;
+          var x = document.getElementsByClassName("mySlides");
+          if (n > x.length) {slideIndex = 1}
+          if (n < 1) {slideIndex = x.length}
+          for (i = 0; i < x.length; i++) {
+            x[i].style.display = "none";  
+          }
+          x[slideIndex-1].style.display = "block";  
+        }
+        </script>
+        
+        <!-- ​<div  style="height:250px;">
+          <img class="mySlides" src="./images/asas11.jpg" style="width:100%">
+          <img class="mySlides" src="./images/asas22.jpg" style="width:100%">
+          <img class="mySlides" src="./images/asas33.jpg" style="width:100%">
+          <img class="mySlides" src="./images/asas44.jpg" style="width:100%">
+
+        </div>
+        
+        <script>
+        var myIndex = 0;
+        carousel();
+        
+        function carousel() {
+          var i;
+          var x = document.getElementsByClassName("mySlides");
+          for (i = 0; i < x.length; i++) {
+            x[i].style.display = "none";  
+          }
+          myIndex++;
+          if (myIndex > x.length) {myIndex = 1}    
+          x[myIndex-1].style.display = "block";  
+          setTimeout(carousel, 3000); // Change image every 2 seconds
+        }
+        </script> -->
+        
+          <div class="background" style="margin-top: -150px; ">
+            <br style="margin-top:5px;">
+            <div class="item1" style="display: flex;">
+                             
+                <a href="#"><img src="./images/mob1.jpg"></a>
+                <a href="#"><img src="./images/mob2.jpg"></a>
+                <a href="#"><img src="./images/mob3.jpg"></a>
+                <a href="#"><img src="./images/mob4.jpg"></a>
+                <a href="#"><img src="./images/mob5.jpg"></a>
+                <a href="#"><img src="./images/mob6.jpg"></a>
+            </div>
+            <button class="buttons">Animal Toys </button> 
+            <div  class="item2"style="display: flex;">
+           
+                <a href="#"><img src="./images/baby1.jpg"></a>
+                <a href="#"><img src="./images/baby2.jpg"></a>
+                <a href="#"><img src="./images/baby3.jpg"></a>
+                <a href="#"><img src="./images/baby4.jpg"></a>
+                <a href="#"><img src="./images/baby5.jpg"></a>
+            </div>
+
+            <button class="buttons">Skin Care Products</button>
+            <div class="item3" style="display: flex;">
+                <a href="#"><img src="./images/care1.jpg"></a>
+                <a href="#"><img src="./images/care2.jpg"></a>
+                <a href="#"><img src="./images/care3.jpg"></a>
+                <a href="#"><img src="./images/care4.jpg"></a>
+                <a href="#"><img src="./images/care5.jpg"></a>
+
+            </div>
+
+            
+              <button class="buttons" > Great gifts for everyone </button>
+              <div class="item4" style="display: flex;"  >
+                <a href="#"><img src="./images/gift1.jpg"></a>
+                <a href="#"><img src="./images/gift2.jpg"></a>
+                <a href="#"><img src="./images/gift3.jpg"></a>
+                <a href="#"><img src="./images/gift4.jpg"></a>
+             </div>
+            <button class="buttons"> Best BackPacks Bags </button>
+              <div class="item5" style="display: flex;" >
+                  <a href="#"><img src="./images/bag1.jpg"></a>
+                  <a href="#"><img src="./images/bag2.jpg"></a>
+                  <a href="#"><img src="./images/bag3.jpg"></a>
+                  <a href="#"><img src="./images/bag4.jpg"></a>
+                  <a href="#"><img src="./images/bag5.jpg"></a>
+
+              </div>
+              <button class="buttons"> popular Gifts in Camera </button>
+
+               <div>
+                <div class="item6" style="display: flex;"  >
+                  <a href="#"><img src="./images/cam2.jpg"></a>
+                  <a href="#"><img src="./images/cam3.jpg"></a>
+                  <a href="#"><img src="./images/cam4.jpg"></a>
+
+
+               </div>
+               <button class="buttons"> Up to 60% | Beauty and personal care </button>
+               <div class="item7" style="display: flex;">
+                <a href="#"><img src="./images/mac1.jpg"></a>
+                <a href="#"><img src="./images/mac2.jpg"></a>
+                <a href="#"><img src="./images/mac3.jpg"></a>
+                <a href="#"><img src="./images/mac4.jpg"></a>
+
+                </div>
+                <button class="buttons">WOMEN'S WATCHES</button>
+                <div class="item8" style="display: flex;">
+                  <a href="#"><img src="./images/watch1.jpg"></a>
+                  <a href="#"><img src="./images/watch2.jpg"></a>
+                  <a href="#"><img src="./images/watch3.jpg"></a>
+                  <a href="#"><img src="./images/watch4.jpg"></a>
+  
+               </div>
+               <button class="buttons">Fashon</button>
+               
+               <div class="item9" style="display:flex;">
+                <a href="#"><img src="./images/shoos1.PNG" width="300px" height="300px"></a>
+                <a href="#"><img src="./images/shoos2.PNG"></a>
+                <a href="#"><img src="./images/shoos3.PNG"></a>
+                <a href="#"><img src="./images/shoos4.PNG"></a>
+
+               </div>
+               <button class="buttons">Shop now fron this categories</button>
+               <div class="item10" style="display: flex;">
+                <a href="#"><img src="./images/access1.jpg"></a>
+                <a href="#"><img src="./images/access2.jpg"></a>
+                <a href="#"><img src="./images/access3.jpg"></a>
+                <a href="#"><img src="./images/access4.jpg"></a>
+
+              </div>
+              <button class="buttons">Shop now</button>
+              <div class="item11" style="display: flex;">
+                <a href="#"><img src="./images/home1.jpg"></a>
+                <a href="#"><img src="./images/home2.jpg"></a>
+                <a href="#"><img src="./images/home3.jpg"></a>
+                <a href="#"><img src="./images/home4.jpg"></a>
+              </div>
+              <button class="buttons"> Best Seller Furnature from Amazon</button>
+              <div class="item12" style="display: flex;">
+                <a href="#"><img src="./images/fur1.jpg"></a>
+                <a href="#"><img src="./images/fur2.jpg"></a>
+                <a href="#"><img src="./images/fur3.jpg"></a>
+                <a href="#"><img src="./images/fur4.jpg"></a>
+               </div>
+               <button class="buttons"> Books&Stories</button>
+               <div class="item13" style="display:flex;">
+                <a href="#"><img src="./images/book3.jpg"></a>
+                <a href="#"><img src="./images/book4.jpg"></a>
+                <a href="#"><img src="./images/book5.jpg"></a>
+
+               </div>
+               <button class="buttons">Games Under $30 </button>
+               <div class="item14" style="display: flex;">
+                <a href="#"><img src="./images/gam1.jpg"></a>
+                <a href="#"><img src="./images/gam2.jpg"></a>
+                <a href="#"><img src="./images/gam3.jpg"></a>
+                <a href="#"><img src="./images/gam4.jpg"></a>
+
+
+               </div>
+
+
+
+          </div>
+          <hr>
+          <br>
+          <div class="see">
+            <p style="color: rgb(26, 21, 21); font-size: 17px; font-family: sans-serif;">See personalized recommendations</p>
+            <br>
+            <button class="sign">Sign In</button>
+            <br><br>
+                        
+          </div>
+          <hr>
+          <button class="backtop"> Back to top</button>
+          <div class="subfooter" style="display: flex;">
+             
+            <img class="mage" src="./images/c.jpg" >
+            <select name="Language" id="Language"  >
+                <option value=""  style="color: black;">&#127760;English</option>
+                <option value="" style="color: black;">&#127760;Arabic</option>
+                <option value="" style="color: black;">&#127760;Hindi</option>
+            </select>
+  
+          </div>
+          
+          <footer>
+            <div>
+                <a href="#">Conditions of Use &Sale</a>
+                <a href="#">Privacy Notice</a>
+                <a href="#">Interest-Based Ads</a>
+                &copy; 1996-2023,Amazon.com,Inc. o sus afiliados
+            </div>
+          </footer>
+        </body>
+</html>
